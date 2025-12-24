@@ -1,0 +1,39 @@
+Documentazione Ufficiale Proxmox API
+Main API Documentation: https://pve.proxmox.com/pve-docs/api-viewer/
+API Token Authentication: https://pve.proxmox.com/wiki/Proxmox_VE_API#API_Tokens
+API Reference Guide: https://pve.proxmox.com/wiki/Proxmox_VE_API
+
+
+Autenticazione con Token API
+Fonte: https://pve.proxmox.com/pve-docs/api-viewer/index.html#/access/ticket
+
+
+Clonazione Container LXC
+LXC Clone Endpoint: https://pve.proxmox.com/pve-docs/api-viewer/index.html#/nodes/{node}/lxc/{vmid}/clone
+
+
+Configurazione Container
+LXC Config Update: https://pve.proxmox.com/pve-docs/api-viewer/index.html#/nodes/{node}/lxc/{vmid}/config
+
+
+Avvio Container
+Start VM/Container: https://pve.proxmox.com/pve-docs/api-viewer/index.html#/nodes/{node}/lxc/{vmid}/status/start
+
+
+Recupero Stato VM
+VM Status Current: https://pve.proxmox.com/pve-docs/api-viewer/index.html#/nodes/{node}/lxc/{vmid}/status/current
+
+
+Recupero Configurazione
+Get VM Config: https://pve.proxmox.com/pve-docs/api-viewer/index.html#/nodes/{node}/lxc/{vmid}/config
+
+
+Generazione Chiavi OpenSSL
+openssl_pkey_new(): https://www.php.net/manual/en/function.openssl-pkey-new.php
+openssl_pkey_export(): https://www.php.net/manual/en/function.openssl-pkey-export.php
+openssl_pkey_get_details(): https://www.php.net/manual/en/function.openssl-pkey-get-details.php
+
+
+Storage JSON delle Credenziali
+MySQL JSON Data Type: https://dev.mysql.com/doc/refman/8.0/en/json.html
+JSON functions: https://dev.mysql.com/doc/refman/8.0/en/json-function-reference.html
